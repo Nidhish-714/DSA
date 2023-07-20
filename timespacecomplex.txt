@@ -1,0 +1,68 @@
+notations
+big O - upper bound 
+THETA - for average case
+omega - for lower bound
+
+
+constant time - O(1)
+
+for i = 0 se i = 10 or any constant
+
+linear time - O(n)
+ for i =0 se i=n or any variable
+
+logarthmic - O(log n)
+
+binary search
+
+qudratic time - O(n^2)
+for(i=0 se n){
+    for(i =0 se n){
+
+    }
+}
+cubic time - O(n^3)
+for(i=0 se n){
+    for(i =0 se n){
+       for(i =0 se i=n) 
+    }
+}
+
+
+complexity level
+
+O(n!)    more
+O(2^n)
+O(n^3)
+O(n^2)
+O(nlog n)
+O(n)
+O(log n)
+O(1)     less
+
+ignore lower degree 
+ n^2 + logn = n^2 ayega complexity(se above table)
+ see number of iterations or comparisons
+ for reversing an array we swap n/2 times , O(n/2)=O(n) hogi complexity
+ 10^8 operation in one sec (operations)
+
+
+ space complexity
+
+ it will be O(1) only if space does not change throught the program
+
+ int n ;
+ cin>>n;
+ vector <int> v (n);
+
+ sc is now O(n)
+
+ for(){
+    vector <int> v(n)
+    for(){
+
+    }
+ } sc is now O(n)
+
+ even if n size ka bar bar use hga but change nahi hora hai
+ 
